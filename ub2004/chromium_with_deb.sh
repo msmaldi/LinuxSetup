@@ -15,3 +15,5 @@ Package: chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra chr
 Pin: release a=bionic-updates
 Pin-Priority: 900
 EOF
+
+apt update

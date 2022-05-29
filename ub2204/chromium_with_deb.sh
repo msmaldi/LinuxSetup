@@ -18,3 +18,5 @@ EOF
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
 mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/ubuntu-bionic.gpg
+
+apt update
