@@ -11,5 +11,5 @@ fi;
 
 cat << EOF >> /etc/fstab
 # /tmp was on RAM edited after installation
-tmpfs /tmp tmpfs defaults,noatime,nosuid,nodev,mode=1777,size=8192M 0 0
+tmpfs /tmp tmpfs mode=1777,nosuid,nodev 0 0
 EOF
